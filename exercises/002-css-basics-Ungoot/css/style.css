@@ -1,0 +1,84 @@
+/*
+ * Table of Contents
+ *
+ * 1. Global Styles
+ * 2. Navigation
+ * 3. Content
+ * 4. Footer
+ */
+
+ /* 1. Global Styles
+ ----------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+}
+body {
+  margin: auto;
+  width: 75%;
+  background-image: url("../images/jungle.jpg");
+}
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	clear: both;
+	*zoom: 1;
+}
+/* 2. Navigation
+ ----------------------------------------*/
+.nav-list {
+  float: right;
+}
+.nav-item {
+  display: inline-block;
+}
+.nav-item-link {
+  display: block;
+  padding: 10px 50px;
+  margin-right: 10px; 
+  color: #000000;   
+  border: 1px solid #000000;    
+  text-decoration: none;
+}
+.nav-item-link:hover {
+  background-color: #dddddd;
+}
+/* 3. Content
+ ----------------------------------------*/
+main {
+  padding: 0px 20px;
+}
+.transparent {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 100%;
+}
+.headshot {
+  float: right;
+  margin-top: 20px;
+}
+main, footer{
+  border-top: 2px solid #c50909;
+}
+/* 4. Footer
+ ----------------------------------------*/
+footer {
+  position:absolute;
+  bottom: 0px;
+  padding: 20px 10px;
+  margin: 0px;
+  width:75%;
+}
+.copyright {
+  float: left;
+}
+.imprint {
+  float: right;
+}

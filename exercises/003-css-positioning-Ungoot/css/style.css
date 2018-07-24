@@ -1,0 +1,57 @@
+/*
+ * Table of Contents
+ *
+ * 1. Global Styles
+ * 2. Content
+ */
+
+ /* 1. Global Styles
+ ----------------------------------------*/
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #cccccc;
+}
+
+/* 2. Content
+ ----------------------------------------*/
+ .pic-list {
+    list-style-type: none;
+    margin: 26px 0px;
+    -webkit-padding-start: 0px;
+ }
+ .img-small, .img-big {
+    border: 3px solid #ffffff;
+    outline: 1px solid #dd0a0a;
+}
+ .img-small{
+    height: 100px;
+}
+.img-big{
+    height: 400px;
+}
+.absolute, .relative{
+    float: left;
+    margin-left: 30px;
+}
+.abs-up{
+    position: absolute;
+    top: 70px;
+    left: 410px;
+}
+.up{
+    position: relative;
+    bottom: 20px;
+}
+.down {
+    position: relative;
+    top: 20px;
+}
+.first-row-element, .second-row-element {
+    display: inline-block;
+    margin: 10px;
+}
+.relative-text {
+    margin-left: 10px;
+}
