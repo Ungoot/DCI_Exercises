@@ -1,0 +1,77 @@
+/*General Styling*/
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family:
+  /* Safari for OS X and iOS (San Francisco) */
+  -apple-system,
+  /* Chrome >= 56 for OS X (San Francisco), Windows, Linux and Android */
+  system-ui,
+  /* Chrome < 56 for OS X (San Francisco) */
+  BlinkMacSystemFont,
+  /* Windows */
+  "Segoe UI",
+  /* Android */
+  "Roboto",
+  /* Basic web fallback */
+  "Helvetica Neue", Arial, sans-serif;
+  margin: auto;
+}
+
+.clearfix:before,
+.clearfix:after{
+  content: "";
+    display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+.clearfix{
+  clear: both;
+  *zoom: 1;
+}
+
+.floatleft{
+  float: left;
+}
+
+.floatright{
+  float: right;
+}
+
+/*Header*/
+#top, .footer{
+  width: 100%;
+  background-color: #444444;
+  padding: 0.9375rem;
+  margin-bottom: 0.3125rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+/*Content*/
+.form-column {
+  /*height: 400px; placeholder*/
+  display: inline-block;
+  width: 45%;
+  margin: 2%;
+}
+
+label {
+  display: block;
+  font-weight: 700;
+  margin: 0 0 5px 0;
+}
+
+/*Footer*/
+.back-to-top{
+  text-decoration: none;
+  color: #ffffff;
+}
+

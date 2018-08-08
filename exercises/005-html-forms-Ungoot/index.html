@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Forms</title>
+</head>
+
+<body>
+	<header id="top">
+		<span class="header">Forms</span>
+	</header>
+	<main>
+		<form class="clearfix" action="http://staging.base64-image.de/test.php" method="get">
+			<div class="form-column floatleft">
+				<fieldset>
+					<legend>Personal Data</legend>
+					<label for="firstname">First Name:</label>
+					<input type="text" name="firstname" id="firstname">
+					<label for="lastname">Last Name:</label>
+					<input type="text" name="lastname" id="lastname">
+					<label for="street">Street:</label>
+					<input type="text" name="street" id="street">
+					<label for="zipcode">Zipcode:</label>
+					<input type="text" name="zipcode" id="zipcode">
+					<label for="city">City:</label>
+					<input type="text" name="city" id="city">
+					<label for="phone">Phone Number:</label>
+					<input type="text" name="phone" id="phone">
+					<label for="email">Email:</label>
+					<input type="text" name="email" id="email">
+					<label for="comments">Comments:</label>
+					<textarea name="comments" id="comments"></textarea>
+				</fieldset>
+			</div>
+			<div class="form-column floatright">
+
+				<fieldset>
+					<legend>Products</legend>
+					<div class "web-design">
+						<p>
+							<strong>Web Design:</strong>
+						</p>
+						<div class="radio">
+							<input type="radio" name="webdesign" value="Individual" id="webdesign-ind" checked="true">
+							<label for="webdesign-ind">Individual</label>
+						</div>
+						<div class="radio">
+							<input type="radio" name="webdesign" value="Template" id="webdesign-temp">
+							<label for="webdesign-temp">Template</label>
+						</div>
+						<p>
+					</div>
+					<div class="web-dev">
+						<strong>Web Development:</strong>
+						</p>
+						<div class="checkbox">
+							<input type="checkbox" name="web-dev[]" value="html" id="web-dev-html">
+							<label for="web-dev-html">HTML5</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" name="web-dev[]" value="css" id="web-dev-css">
+							<label for="web-dev-css">CSS3</label>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" name="web-dev[]" value="js" id="web-dev-js">
+							<label for="web-dev-js">JavaScript</label>
+						</div>
+					</div>
+					<div class "project">
+						<div class "projectstart">
+							<p>
+								<label for="projectstart">Project Start:</label>
+								<input type="date" name="projectstart" id="projectstart">
+							</p>
+						</div>
+						<div class "projectend">
+							<p>
+								<label for="projectend">Project End:</label>
+								<input type="date" name="projectend" id="projectend">
+							</p>
+						</div>
+					</div>
+					<div class="category">
+						<p>
+							<label for="category">Category:</label>
+							<select name="category" id="category">
+								<option value="personal">Personal</option>
+								<option value="business">Business</option>
+								<option value="government">Government</option>
+							</select>
+						</p>
+					</div>
+				</fieldset>
+
+				<div class="submit">
+					<p>
+						<button class="btn btn-submit">Submit</button>
+					</p>
+				</div>
+			</div>
+		</form>
+	</main>
+	<footer class="footer">
+		<span class="footnote">&copy 2018</span>
+		<a class="back-to-top floatright" href="#top">Back to top</a>
+	</footer>
+</body>
+
+</html>

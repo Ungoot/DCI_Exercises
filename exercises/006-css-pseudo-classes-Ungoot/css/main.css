@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:
+    /* Safari for OS X and iOS (San Francisco) */
+    -apple-system,
+    /* Chrome >= 56 for OS X (San Francisco), Windows, Linux and Android */
+    system-ui,
+    /* Chrome < 56 for OS X (San Francisco) */
+    BlinkMacSystemFont,
+    /* Windows */
+    "Segoe UI",
+    /* Android */
+    "Roboto",
+    /* Basic web fallback */
+    "Helvetica Neue", Arial, sans-serif;
+    margin: auto;
+}
+  
+.clearfix:before,
+.clearfix:after{
+   content: "";
+   display: table;
+}
+  
+.clearfix:after{
+   clear: both;
+}
+  
+.clearfix{
+   clear: both;
+   *zoom: 1;
+}
+  
+.floatleft{
+   float: left;
+}
+  
+.floatright{
+   float: right;
+}
+  
+/*Header*/
+#top, .footer{
+   width: 100%;
+   background-color: #444444;
+   padding: 15px;
+   margin-bottom: 5px;
+   font-size: 20px;
+   font-weight: 500;
+   color: #ffffff;
+}
+
+
+/*Content*/
+.btn-box, .link-box, .box-title{
+    text-align: center;
+}
+
+.btn-box, .link-box{
+    padding-bottom: 50px;
+}
+
+.btn, .list-link{
+    width: 250px;
+    background: #777777;
+    display: inline-block;
+    padding: 50px 0px;
+    border-radius: 5px;
+    border: 1px solid #ff0000;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 32px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.google, .sixdollar{
+    background-color: #ff0000;
+}
+.yahoo, .qwertee{
+    background-color: #00ff00;
+}
+
+.bing, .mydealz{
+    background-color: #0000ff;
+}
+
+.btn:visited, .list-link:visited{
+    opacity: 0.2;
+}
+
+.btn:hover, .list-link:hover{
+    opacity: 0.5;
+}
+
+.btn:active, .list-link:active{
+    background: #ff0000;
+}
+
+.list-box, .list-item {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.list-box{
+    display: block;
+    padding: 50px 0px;
+}
+
+
+
+
+
+.end-text{
+    font-size: 8px;
+}
+
+/*Footer*/
+.back-to-top{
+    text-decoration: none;
+}
+
+.back-to-top:visited{
+    color: #ffffff;
+}
+
+.back-to-top:hover{
+    text-decoration: underline;
+}
